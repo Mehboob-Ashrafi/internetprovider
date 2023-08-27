@@ -1,0 +1,40 @@
+.container-fluid {
+background-color: black;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.navbar-collapse {
+    flex-grow: 1;
+    align-items: end;
+    margin-left: 600px;
+}
+
+.menu li {
+    margin-left: 20px;
+    color: white !important;
+}
+.menu a {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.menu {
+display: flex;
+justify-content: center;
+}
+
+
+.navbar-brand img {
+    width: 120px;
+    height: 80px;
+    margin-left: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
